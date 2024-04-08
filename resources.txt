@@ -1,0 +1,7 @@
+Sources
+
+Menu bar:
+https://www.w3schools.com/css/css_navbar.asp
+
+Full Screen Video Background Landing Page Website - HTML, CSS & Bootstrap:
+https://www.youtube.com/watch?v=r-cBNou1jMk&ab_channel=w3newbie
