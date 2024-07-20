@@ -1,27 +1,74 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #ffffff;
-    overflow: hidden;
+
+html, body {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #001F5B;
+}
+
+#app {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+
+  text-align: right;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  padding: 2px 0;
+}
+
+.header .menu {
+  margin-right: 20px;
+}
+
+.header .link {
+  display: inline-block;
+  padding: 15px 0;
+  margin: 15px 25px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #001F5B;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.header .link .bar {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 5px solid #FD652F;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+.header .link:hover .bar {
+  opacity: 1;
+  bottom: 5px;
+}
+
+.section {
+  padding: 100px 20px;
+  margin-top: 80px;
+  min-height: 100vh;
+}
+
+
+  .section {
+    margin: 150px; 
+    font-size: 20px;
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #c25a0b;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #0a3b91;
-    color: white;
-  }
+
+  .content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #C8DBD7;
+    margin-top: 5px;
+}
