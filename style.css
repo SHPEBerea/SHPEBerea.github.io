@@ -74,7 +74,6 @@ html, body {
 }
 
 
-/* Three columns side by side */
 .column {
   float: left;
   width: 33.3%;
@@ -82,7 +81,6 @@ html, body {
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -90,17 +88,14 @@ html, body {
   }
 }
 
-/* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -123,4 +118,91 @@ html, body {
 
 .button:hover {
   background-color: #555;
+}
+
+#contactanos {
+  text-align: center;
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  position: relative; 
+  margin-top: auto;
+  width: 100%;
+  
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-facebook-f, .fa-linkedin, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+.rounded-social-buttons .social-button.email {
+  background: #d06a67;
+}
+
+.rounded-social-buttons .social-button.email:hover, .rounded-social-buttons .social-button.email:focus {
+  color: #d06a67;
+  background: #fefefe;
+  border-color: #d06a67;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
 }
