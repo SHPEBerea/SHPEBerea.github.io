@@ -171,38 +171,38 @@ footer {
   background: #3b5998;
 }
 .rounded-social-buttons .social-button.email {
-  background: #d06a67;
+  background: #FD652F;
 }
 
 .rounded-social-buttons .social-button.email:hover, .rounded-social-buttons .social-button.email:focus {
-  color: #d06a67;
+  color: #FD652F;
   background: #fefefe;
-  border-color: #d06a67;
+  border-color: #FD652F;
 }
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
-  color: #3b5998;
+  color: #001F5B;
   background: #fefefe;
-  border-color: #3b5998;
+  border-color: #001F5B;
 }
 
 .rounded-social-buttons .social-button.linkedin {
-  background: #007bb5;
+  background: #001F5B;
 }
 
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #007bb5;
+  color: #001F5B;
   background: #fefefe;
-  border-color: #007bb5;
+  border-color: #001F5B;
 }
 
 
 .rounded-social-buttons .social-button.instagram {
-  background: #125688;
+  background: #001F5B;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-  color: #125688;
+  color: #001F5B;
   background: #fefefe;
-  border-color: #125688;
+  border-color: #001F5B;
 }
