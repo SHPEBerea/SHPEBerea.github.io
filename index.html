@@ -6,283 +6,314 @@
     <title>SHPE-Berea 💙</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">  <a class="navbar-brand" href="#"><img src="images/SHPE_Rlogo_horiz_RGB_FC.png" width="80"/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/SHPE_Rlogo_horiz_RGB_FC.png" alt="SHPE Logo"/>
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav d-flex justify-content-end">  <a class="nav-link active" aria-current="page" href="#">About</a>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link" href="#membership">Membership</a>
             <a class="nav-link" href="#team">Team</a>
             <a class="nav-link" href="https://medium.com/@shpe_bereacollege1" target="_blank">Blog</a>
-            <a class="nav-link" href="#membership">Membership</a>
             <a class="nav-link" target="_blank" href="https://give.berea.edu/page/66418/donate/1?&transaction.dirgift=Society%20of%20Hispanic%20Professional%20Engineers%20Berea%20Chapter">Donate</a>
-            
           </div>
         </div>
       </div>
     </nav>
 
-<div class="container">
-    <div class="row">
-      <!-- Text -->
-      <div class="col-md-6">
-    </br>
-    </br>
-        <h1>Familia in STEM 💙</h1>
-      </br>
-    </br>
-        <p>
-          At SHPE-Berea, we draw inspiration from our culture to foster 
-          a supportive and inclusive environment for STEM majors at Berea College. 
-        <br/>
-          Since becoming an official chapter in 2023, we have been committed to 
-          empowering our members by organizing professional development events, 
-          attending conferences, and sharing professional development opportunities. 
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text -->
+          <div class="col-lg-6">
+            <h1>Familia in STEM 💙</h1>
+            <p>
+              At SHPE-Berea, we draw inspiration from our culture to foster 
+              a supportive and inclusive environment for STEM majors at Berea College.
+            </p>
+            <p>
+              Since becoming an official chapter in 2023, we have been committed to 
+              empowering our members by organizing professional development events, 
+              attending conferences, and sharing professional development opportunities.
+            </p>
+            <p>
+              Our goal is to continue building a strong network that uplifts and supports 
+              Hispanic students in STEM fields.
+            </p>
+            <a href="https://berea.campuslabs.com/engage/organization/shpe-berea" target="_blank">
+              <button type="button" class="btn btn-primary-custom" title="Berea Engage">Join Us!</button>
+            </a>
+          </div>
+      
+          <!-- Carousel -->
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="images/slideshow/comunidad.png" class="d-block w-100" alt="Involvement Fair 2023">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slideshow/grupo.png" class="d-block w-100" alt="Comunidad">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slideshow/SHPE25Conference.jpg" class="d-block w-100" alt="SHPE 2025 Conference">
+                  <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>SHPE 2025 Conference</h5>
+                  </div> -->
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slideshow/familia.jpg" class="d-block w-100" alt="Familia">
+                </div>
+
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="section-light">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading">Membership</h2>
+        </div>
+        <p class="text-center mb-4">
+          SHPE National is a community of people like you who are looking to advance their professional lives alongside others. 
+          Whether you're interested in graduate school or industry, SHPE has something for you!
         </p>
-        <p>
-          Our goal is to continue building a strong network that uplifts and supports
-          STEM Hispanic and non-hispanic students on their undergraduate journey at Berea.
+        <p class="text-center mb-5">
+          All on-campus events are free and open to everyone. By becoming an annual member, however, you will gain access to other benefits.
         </p>
-        <a href="https://berea.campuslabs.com/engage/organization/shpe-berea" target="_blank">
-          <button type="button" class="btn btn-warning">Join Us!</button>
-        </a>
         
-      </div>
-  
-    </br>
-      <!-- Carousel with group pictures-->
-      <div class="col-md-6">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/comunidad.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/grupo.png" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-<div class="container">
-  <h2 id="membership" class="fs-2 p-5 mt-6 text-center">Membership</h2>
-  <p class="text-start">SHPE National is a community of people like you who are looking to advance their professional lives alongside others. Whether you're interested in graduate school or industry, SHPE has something for you! 
-
-  <p class="text-start">All on-campus events are free and open to everyone. By becoming an annual member, however, you will gain access to other benefits.</p>
-  
-
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Step 1) Learn about the benefits of a SHPE Membership
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yiu0hfDekbs" title="Never Gonna Give You Up" frameborder="0" allowfullscreen></iframe>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Why Join SHPE?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row align-items-center">
+                  <div class="col-md-6 mb-3">
+                    <div class="video-container">
+                      <iframe src="https://www.youtube.com/embed/Yiu0hfDekbs" title="Join SHPE as an Undergraduate!" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="mb-3">Student Membership Benefits:</h5>
+                    <ul>
+                      <li>Access to the SHPE National Convention</li>
+                      <li>Networking opportunities with industry professionals</li>
+                      <li>Scholarship and internship opportunities</li>
+                      <li>Professional development workshops</li>
+                      <li>Connection to a supportive community</li>
+                      <li>Leadership development programs</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6">
-                <ul>
-                  <li>Access to more than $1M in scholarships each year</li>
-                  <li>Internship, fellowship, and co-op opportunities</li>
-                  <li>Exclusive access to the SHPE Career Center (upload your resume and connect directly with industry recruiters and hiring managers)</li>
-                  <li>Resumé reviews, recommendations, and rewording</li>
-                  <li>Professional development</li>
-                  <li>Leadership training</li>
-                  <li>Mentoring from a professional member</li>
-                  <li>Discounted registration to national, regional, and local SHPE events</li>
-                  <li>Competition and award opportunities</li>
-                  <li>Access to a nationwide network of industry leaders and peers</li>
-                  <li>Eligibility to run and hold office on the SHPE Board</li>
-                </ul>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How to Become a Member
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ol>
+                  <li><strong>Join our chapter:</strong> Sign up through <a href="https://berea.campuslabs.com/engage/organization/shpe-berea" target="_blank">Berea College Campus Labs</a></li>
+                  <li><strong>Become a SHPE National member:</strong> Visit <a href="https://www.shpe.org/membership" target="_blank">SHPE.org</a> to register</li>
+                  <li><strong>Attend events:</strong> Participate in our meetings and professional development activities</li>
+                  <li><strong>Get involved:</strong> Join committees and take on leadership roles</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Membership Tiers & Pricing
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><strong>Student Membership:</strong> $20/year (National membership)</p>
+                <p><strong>Local Chapter:</strong> Free for all Berea College students</p>
+                <p>National membership gives you access to exclusive resources, the annual convention, and career opportunities through the SHPE network.</p>
               </div>
             </div>
           </div>
         </div>
+        
+        <p class="text-center mt-4">
+          Got questions? Reach out to us through our social media or 
+          <a href="mailto:SHPE_BereaCollege1@outlook.com">SHPE_BereaCollege1@outlook.com</a>
+        </p>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Step 2) Learn about Networking Funds from Career Development
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Berea's Career Development Office offers networking funding to cover professional memberships. Make an appointment with them through Handshake to learn more.
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section-white">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading">Our Board 2025-2026</h2>
+        </div>
+        <p class="text-center mb-5">Meet the current leadership team driving our mission forward.</p>
+
+        <div class="team-grid">
+
+          <div class="card team-card">
+            <img src="images/DrJulianViera.jpeg" class="card-img-top" alt="Dr. Julian Viera">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/julian-viera-jr-phd-43872620/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">Faculty Advisor</h5>
+              <p class="card-text"><strong>Dr. Julian Viera</strong></p>
+              <p class="card-text"><small class="text-muted">Associate Professor of Math Education</small></p>
+            </div>
+          </div>
+
+          <div class="card team-card">
+            <img src="images/leadership25-26/agb-headshot.jpg" class="card-img-top" alt="America Gaona Borges">
+            <div class="card-body">
+                <a href="https://www.linkedin.com/in/america-gaona-borges/" target="_blank" class="linkedin-icon">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <h5 class="card-title">President</h5>
+                <p class="card-text"><strong>America Gaona Borges</strong></p>
+                <p class="card-text"><small class="text-muted">Class of 2026 • Computer Science Major</small></p>
+              </div>
+            </div>
+
+          <div class="card team-card">
+            <img src="" class="card-img-top" alt="Eber Seco Lima">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/eber-lima/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">Vice President</h5>
+              <p class="card-text"><strong>Eber Seco Lima</strong></p>
+              <p class="card-text"><small class="text-muted">Class of 20XX</small></p>
+            </div>
+          </div>
+
+          <div class="card team-card">
+            <img src="" class="card-img-top" alt="Hannia Amaro-Zambrano">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/hanniaamaro-zambrano/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">Treasurer</h5>
+              <p class="card-text"><strong>Hannia Amaro-Zambrano</strong></p>
+              <p class="card-text"><small class="text-muted">Class of 2026</small></p>
+            </div>
+          </div>
+
+          <div class="card team-card">
+            <img src="" class="card-img-top" alt="Javier Vazquez">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/javier-vazquez-soto/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">Event Coordinator</h5>
+              <p class="card-text"><strong>Javier Vazquez</strong></p>
+              <p class="card-text"><small class="text-muted">Class of 20XX</small></p>
+            </div>
+          </div>
+
+          <div class="card team-card">
+            <img src="" class="card-img-top" alt="Bernave Santos">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/bernave-santos/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">First-Year Chair</h5>
+              <p class="card-text"><strong>Bernave Santos</strong></p>
+              <p class="card-text"><small class="text-muted">Class of 20XX</small></p>
+            </div>
+          </div>
+
+          <div class="card team-card">
+            <img src="" class="card-img-top" alt="Robert Lucas">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/in/robert-lucas-232011385/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <h5 class="card-title">First-Year Chair</h5>
+              <p class="card-text"><strong>Robert Lucas</strong></p>
+              <p class="card-text"><small class="text-muted">Class of 20XX</small></p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Link to Past Members Page -->
+        <div class="text-center mt-5">
+          <a href="past-members.html" class="btn btn-outline-secondary">
+            <i class="fas fa-history"></i> View Past Leadership
+          </a>
         </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Step 3) Make an Account and Purchase your Membership
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Follow the steps of getting a $10 undergraduate membership <a href="https://shpe.org/membership/become-a-member/">here</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <br/>
-  <br/>
-  <p> Got questions? Reach out to us through our social media or SHPE_BereaCollege1@outlook.com</p>
-  
+    </section>
 
-
-</div>
-
-
-
-
-<h2 id="team" class="fs-2 p-5 mt-6 text-center">Founding Board 2023-2024</h2>
-<p class="text-center">Meet the team who laid the foundation of our community with dedication and teamwork.</p>
-<p class="text-center"><strong>A special recognition goes to Dr. Viera for going above and beyond to support our initiative from day one.</strong></p>
-
-<div class="container">
-  <div class="d-flex flex-wrap justify-content-around">
-    <!-- Cards -->
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/DrJulianViera.jpeg" class="card-img-top" alt="Dr. Julian Viera">
-      <div class="card-body text-center">
-        <h5 class="card-title">Faculty Advisor</h5>
-        <p class="card-text">Dr. Julian Viera</p>
-        <p class="card-text">Assistant Professor of Math</p>
-        <a href="https://www.linkedin.com/in/julian-viera-jr-phd-43872620" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
+    <!-- Footer -->
+    <footer id="contactanos">
+      <h3>Become part of the SHPE-Berea Familia!</h3>
+      
+      <div class="rounded-social-buttons">
+        <a class="social-button email" href="mailto:SHPE_BereaCollege1@outlook.com" target="_blank">
+          <i class="fa fa-envelope" title="Email"></i>
+        </a>
+        <a class="social-button instagram" href="https://www.instagram.com/shpe_berea/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram" title="Instagram"></i>
+        </a>
+        <a class="social-button" href="https://berea.campuslabs.com/engage/organization/shpe-berea" target="_blank" rel="noopener noreferrer" style="background: #FD652F;">
+          <i class="fas fa-users" title="Berea Engage"></i>
         </a>
       </div>
-    </div>
 
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/BelenSaavedra.jpeg" class="card-img-top" alt="Belen Saavedra">
-      <div class="card-body text-center">
-        <h5 class="card-title">President</h5>
-        <p class="card-text">Belen Saavedra '24</p>
-        <p class="card-text">Computer Science</p>
-        <a href="https://www.linkedin.com/in/belensaavedra/" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/ChristianPalacios.jpeg" class="card-img-top" alt="Christian Palacios-Gomez">
-      <div class="card-body text-center">
-        <h5 class="card-title">Vice President</h5>
-        <p class="card-text">Christian Palacios-Gomez '24</p>
-        <p class="card-text">Now PhD student at the University of Virginia</p>
-        <a href="https://www.linkedin.com/in/christian-palacios-gomez-92bb3a26b" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/DanielaAyala.jpeg" class="card-img-top" alt="Daniela Ayala">
-      <div class="card-body text-center">
-        <h5 class="card-title">Manager</h5>
-        <p class="card-text">Daniela Ayala '24</p>
-        <p class="card-text">Computer Science & Chemistry</p>
-        <a href="https://www.linkedin.com/in/daniela-ayala-401364268?trk=public_profile_browsemap" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/AlbertoDoroteo.png" class="card-img-top" alt="Alberto Doroteo-Reyes">
-      <div class="card-body text-center">
-        <h5 class="card-title">Treasurer</h5>
-        <p class="card-text">Alberto Doroteo-Reyes '26</p>
-        <p class="card-text">Computer Science</p>
-        <a href="https://www.linkedin.com/in/albertodoroteo-reyes" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/AlejandroRamos.jpeg" class="card-img-top" alt="Alejandro Ramos">
-      <div class="card-body text-center">
-        <h5 class="card-title">Secretary</h5>
-        <p class="card-text">Alejandro Ramos '23</p>
-        <p class="card-text">Now Software Engineer at Bank of America</p>
-        <a href="https://www.linkedin.com/in/alejandro-ramos-9979721b9" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 15rem; margin: 5px;">
-      <img src="images/IsaacRodriguez.png" class="card-img-top" alt="Isaac Rodriguez">
-      <div class="card-body text-center">
-        <h5 class="card-title">Social Media Manager</h5>
-        <p class="card-text">Isaac Rodriguez</p>
-        <p class="card-text">Arts & Business</p>
-        <a href="https://www.linkedin.com/in/isaac-rodriguez-640a76222" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
-  integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-
-  <br/>
-  <br/>
-  <br/>
-  <footer id="contactanos">
-    <h3>Become part of the SHPE-Berea Familia!</h3>
-    
-    <div class="rounded-social-buttons">
-        <a class="social-button email" href="mailto:SHPE_BereaCollege1@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a class="social-button instagram" href="https://www.instagram.com/shpe_berea/" target="_blank"><i class="fab fa-instagram"></i></a>
-            
-    </div>
-
-    <p>Made with ❤️ by Belu</p>
-    <p> If you want to contribute to the website, fork our repo and make a pull request! <a href="https://github.com/SHPEBerea/SHPEBerea.github.io">SHPE-Berea Website Repo</a> </p>
+      <p>Created with ❤️ originally by Belu • Updated by AGB</p>
+      <p>If you want to contribute to the website, fork our repo and make a pull request! 
+        <a href="https://github.com/SHPEBerea/SHPEBerea.github.io">SHPE-Berea Website Repo</a>
+      </p>
     </footer>
-  
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-   
+    <script src="script.js"></script>  
   </body>
 </html>
