@@ -111,11 +111,11 @@ To add a new leadership member to index.html:
 
 - **Email**: [SHPE_BereaCollege1@outlook.com](mailto:SHPE_BereaCollege1@outlook.com)
 - **Instagram**: [@shpe_berea](https://www.instagram.com/shpe_berea/)
-- **Berea Engage**: [SHPE-Berea Organization](https://berea.campuslabs.com/engage/organization/shpe-berea)
+- **Berea Engage**: [SHPE-Berea Chapter](https://berea.campuslabs.com/engage/organization/shpe-berea)
 
 ## Credits
 
-- **Original Design**: Belu (Belen Saavedra)
+- **Original Creater**: Belu (Belen Saavedra)
 - **Current Maintainer**: AGB (America Gaona Borges)
 - **Faculty Advisor**: Dr. Julian Viera
 
